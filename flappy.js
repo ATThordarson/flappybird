@@ -9,7 +9,7 @@ var stateActions = { preload: preload, create: create, update: update };
 // - actions on the game state (or null for nothing)
 var game = new Phaser.Game(790, 400, Phaser.AUTO, 'game', stateActions);
 
-var score = 0;
+var score = -2;
 var labelScore;
 var player;
 var pipes;
